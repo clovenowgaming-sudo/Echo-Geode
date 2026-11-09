@@ -59,7 +59,7 @@ void Panel::toggle() {
 bool Panel::init() {
 	if (!CCLayer::init()) return false;
 
-	m_size = {390.f, 284.f};
+	m_size = CCSize(390.f, 284.f);
 	this->setContentSize(m_size);
 	auto win = CCDirector::get()->getWinSize();
 	this->setPosition({(win.width - m_size.width) / 2.f, (win.height - m_size.height) / 2.f});
