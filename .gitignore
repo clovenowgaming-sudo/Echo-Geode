@@ -1,0 +1,7 @@
+build/
+build-*/
+.cache/
+.vs/
+.idea/
+*.geode
+compile_commands.json
